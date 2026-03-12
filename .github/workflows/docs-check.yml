@@ -1,0 +1,23 @@
+name: Docs Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  docs-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify key docs exist
+        shell: bash
+        run: |
+          test -f README.md
+          test -f docs/standards/naming-standard.md
+          test -f docs/standards/tagging-standard.md
+          test -f docs/standards/evidence-standard.md
