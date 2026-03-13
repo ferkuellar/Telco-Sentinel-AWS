@@ -1,6 +1,17 @@
+
 # Tagging Standard
 
 ## Mandatory Tags
+
+- Project
+- Environment
+- Owner
+- Domain
+- CostCenter
+- DataClassification
+- ManagedBy
+
+## Mandatory Default Values for Phase 1
 
 - Project = Telco-Sentinel-AWS
 - Environment = dev
@@ -10,15 +21,18 @@
 - DataClassification = Internal
 - ManagedBy = Terraform
 
-## Optional Tags
+## Recommended Optional Tags
 
 - Service
 - Criticality
 - ComplianceScope
 - Lifecycle
+- SupportGroup
 
-## Rules
+## Tagging Rules
 
 - all Terraform-managed resources must include mandatory tags
-- tags must be documented in plan reviews
-- tag drift must be recorded as a governance issue
+- tags are for cost, operations, automation, and governance
+- tags must not contain secrets or sensitive information
+- tag drift must be recorded and corrected
+- cost allocation tags should be activated when the implementation phase begins

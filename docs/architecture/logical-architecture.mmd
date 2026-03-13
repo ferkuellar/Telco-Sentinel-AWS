@@ -1,0 +1,46 @@
+flowchart TD
+    A[Telco-Sentinel-AWS Governance Model] --> B[Management OU]
+    A --> C[Security OU]
+    A --> D[Infrastructure OU]
+    A --> E[Workloads OU]
+    A --> F[Sandbox OU]
+
+    B --> B1[Management Account]
+
+    C --> C1[Log Archive Account]
+    C --> C2[Audit Account]
+
+    D --> D1[Shared Services Account]
+    D --> D2[Observability Account]
+
+    E --> E1[Telco Platform Dev]
+    E --> E2[Telco Platform Prod]
+
+    F --> F1[Experimentation Account]
+
+    A --> G[Standards]
+    G --> G1[Naming]
+    G --> G2[Tagging]
+    G --> G3[Documentation]
+    G --> G4[Evidence]
+
+    A --> H[Governance Controls]
+    H --> H1[Budget Strategy]
+    H --> H2[Risk Register]
+    H --> H3[Phase Gates]
+    H --> H4[Control Matrix]
+
+        A[Telco-Sentinel-AWS Governance Model] --> B[Management OU]
+    A --> C[Security OU]
+    A --> D[Infrastructure OU]
+    A --> E[Workloads OU]
+    A --> F[Sandbox OU]
+
+    B --> B1[Management Account]
+    C --> C1[Log Archive Account]
+    C --> C2[Audit Account]
+    D --> D1[Shared Services Account]
+    D --> D2[Observability Account]
+    E --> E1[Telco Platform Dev]
+    E --> E2[Telco Platform Prod]
+    F --> F1[Experimentation Account]
