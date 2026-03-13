@@ -1,0 +1,11 @@
+{
+    "DeliveryChannels": [
+        {
+            "name": "aegis-lz-aws-dev-config-delivery-channel",
+            "s3BucketName": "aegis-lz-aws-dev-151567229153-config-logs",
+            "configSnapshotDeliveryProperties": {
+                "deliveryFrequency": "TwentyFour_Hours"
+            }
+        }
+    ]
+}

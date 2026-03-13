@@ -1,0 +1,24 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   main.tf
+	modified:   outputs.tf
+	modified:   tfplan
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../docs/adrs/ADR-007-cloudtrail-and-log-encryption.md
+	../../../docs/adrs/ADR-008-config-recording-strategy.md
+	../../../docs/adrs/ADR-009-security-posture-services.md
+	"../../../docs/architecture/Flujo-de-auditor\303\255a.mmd"
+	../../../docs/architecture/audit-flow.md
+	../../../docs/architecture/security-posture.md
+	../../../docs/architecture/security-posture.mmd
+	../../../docs/runbooks/security-baseline-validation.md
+	../../../evidence/phase-3/
+	../../modules/security_baseline/
+
+no changes added to commit (use "git add" and/or "git commit -a")

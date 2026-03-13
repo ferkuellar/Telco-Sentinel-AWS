@@ -1,0 +1,20 @@
+ÔòÀ
+Ôöé Error: Unsupported operator
+Ôöé 
+Ôöé   on outputs.tf line 67, in output "cloudtrail_arn":
+Ôöé   67: }|
+Ôöé 
+Ôöé Bitwise operators are not supported. Did you mean boolean OR ("||")?
+ÔòÁ
+
+ÔòÀ
+Ôöé Error: Missing newline after block definition
+Ôöé 
+Ôöé   on outputs.tf line 67, in output "cloudtrail_arn":
+Ôöé   65: output "cloudtrail_arn" {
+Ôöé   66:   value = module.security_baseline.cloudtrail_arn
+Ôöé   67: }|
+Ôöé 
+Ôöé A block definition must end with a newline.
+ÔòÁ
+

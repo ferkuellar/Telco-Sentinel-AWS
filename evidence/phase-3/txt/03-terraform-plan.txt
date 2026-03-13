@@ -1,0 +1,436 @@
+[0m[1mmodule.security_baseline.data.aws_caller_identity.current: Reading...[0m[0m
+[0m[1mmodule.security_baseline.data.aws_region.current: Reading...[0m[0m
+[0m[1mmodule.security_baseline.aws_guardduty_detector.main: Refreshing state... [id=737b5979c88a42728beb98cb3bba76cb][0m
+[0m[1mmodule.security_baseline.aws_iam_role.config[0]: Refreshing state... [id=novatel-sec-dev-config-role][0m
+[0m[1mmodule.security_baseline.data.aws_region.current: Read complete after 0s [id=us-east-1][0m
+[0m[1mmodule.security_baseline.aws_iam_role.cloudtrail_to_cw: Refreshing state... [id=novatel-sec-dev-cloudtrail-cw-role][0m
+[0m[1mmodule.network.aws_eip.nat: Refreshing state... [id=eipalloc-00e066ac8d4a86bda][0m
+[0m[1mmodule.network.aws_vpc.main: Refreshing state... [id=vpc-007bfb08f99ed1f9c][0m
+[0m[1mmodule.network.aws_cloudwatch_log_group.flow_logs: Refreshing state... [id=/aws/vpc/novatel-net-dev/flowlogs][0m
+[0m[1mmodule.network.aws_iam_role.flow_logs_role: Refreshing state... [id=novatel-net-dev-flowlogs-role][0m
+[0m[1mmodule.security_baseline.data.aws_caller_identity.current: Read complete after 0s [id=151567229153][0m
+[0m[1mmodule.security_baseline.aws_kms_key.trail: Refreshing state... [id=06e57a3c-ac44-4331-badb-f2db49032992][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket.trail_logs: Refreshing state... [id=novatel-sec-dev-trail-logs-151567229153][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket.config[0]: Refreshing state... [id=novatel-sec-dev-config-151567229153][0m
+[0m[1mmodule.security_baseline.aws_kms_alias.trail: Refreshing state... [id=alias/novatel-sec-dev-trail-kms][0m
+[0m[1mmodule.network.aws_iam_role_policy.flow_logs_policy: Refreshing state... [id=novatel-net-dev-flowlogs-role:novatel-net-dev-flowlogs-policy][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket_policy.config[0]: Refreshing state... [id=novatel-sec-dev-config-151567229153][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket_public_access_block.config[0]: Refreshing state... [id=novatel-sec-dev-config-151567229153][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket_server_side_encryption_configuration.config[0]: Refreshing state... [id=novatel-sec-dev-config-151567229153][0m
+[0m[1mmodule.network.aws_internet_gateway.main: Refreshing state... [id=igw-07f4ccee12d2242da][0m
+[0m[1mmodule.network.aws_route_table.public: Refreshing state... [id=rtb-02704e8e4521e3a40][0m
+[0m[1mmodule.network.aws_route_table.private: Refreshing state... [id=rtb-0c3604106ce8bd373][0m
+[0m[1mmodule.network.aws_subnet.private[0]: Refreshing state... [id=subnet-07cdc86f2ca890dfa][0m
+[0m[1mmodule.network.aws_flow_log.vpc_flow_logs: Refreshing state... [id=fl-05e8590a52f499b54][0m
+[0m[1mmodule.network.aws_subnet.private[1]: Refreshing state... [id=subnet-01f4fb50d39b4e3ae][0m
+[0m[1mmodule.network.aws_security_group.public_sg: Refreshing state... [id=sg-04c3d7edac85b6d85][0m
+[0m[1mmodule.network.aws_subnet.public[0]: Refreshing state... [id=subnet-07eae3b110391db68][0m
+[0m[1mmodule.network.aws_subnet.public[1]: Refreshing state... [id=subnet-01b38163a2e8bfb15][0m
+[0m[1mmodule.network.aws_route.public_default: Refreshing state... [id=r-rtb-02704e8e4521e3a401080289494][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket_policy.trail_logs: Refreshing state... [id=novatel-sec-dev-trail-logs-151567229153][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket_server_side_encryption_configuration.trail_logs: Refreshing state... [id=novatel-sec-dev-trail-logs-151567229153][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket_versioning.trail_logs: Refreshing state... [id=novatel-sec-dev-trail-logs-151567229153][0m
+[0m[1mmodule.security_baseline.aws_s3_bucket_public_access_block.trail_logs: Refreshing state... [id=novatel-sec-dev-trail-logs-151567229153][0m
+[0m[1mmodule.network.aws_security_group.private_sg: Refreshing state... [id=sg-0624b3ee55ed82e62][0m
+[0m[1mmodule.network.aws_route_table_association.private_assoc[1]: Refreshing state... [id=rtbassoc-021323caec7455082][0m
+[0m[1mmodule.network.aws_route_table_association.private_assoc[0]: Refreshing state... [id=rtbassoc-0a51dd09b423d031d][0m
+[0m[1mmodule.network.aws_route_table_association.public_assoc[1]: Refreshing state... [id=rtbassoc-003c9dd1f365c6c19][0m
+[0m[1mmodule.network.aws_nat_gateway.main: Refreshing state... [id=nat-0d8ea940fbb024980][0m
+[0m[1mmodule.network.aws_route_table_association.public_assoc[0]: Refreshing state... [id=rtbassoc-050ce7f6166e294c3][0m
+[0m[1mmodule.network.aws_route.private_default: Refreshing state... [id=r-rtb-0c3604106ce8bd3731080289494][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create[0m
+  [33m~[0m update in-place[0m
+  [31m-[0m destroy[0m
+
+Terraform will perform the following actions:
+
+[1m  # module.security_baseline.aws_cloudtrail.main[0m will be created
+[0m  [32m+[0m[0m resource "aws_cloudtrail" "main" {
+      [32m+[0m[0m arn                           = (known after apply)
+      [32m+[0m[0m cloud_watch_logs_group_arn    = (known after apply)
+      [32m+[0m[0m cloud_watch_logs_role_arn     = "arn:aws:iam::151567229153:role/novatel-sec-dev-cloudtrail-cw-role"
+      [32m+[0m[0m enable_log_file_validation    = true
+      [32m+[0m[0m enable_logging                = true
+      [32m+[0m[0m home_region                   = (known after apply)
+      [32m+[0m[0m id                            = (known after apply)
+      [32m+[0m[0m include_global_service_events = true
+      [32m+[0m[0m is_multi_region_trail         = true
+      [32m+[0m[0m is_organization_trail         = false
+      [32m+[0m[0m kms_key_id                    = "arn:aws:kms:us-east-1:151567229153:key/06e57a3c-ac44-4331-badb-f2db49032992"
+      [32m+[0m[0m name                          = "novatel-sec-dev-trail"
+      [32m+[0m[0m s3_bucket_name                = "novatel-sec-dev-trail-logs-151567229153"
+      [32m+[0m[0m sns_topic_arn                 = (known after apply)
+      [32m+[0m[0m tags                          = {
+          [32m+[0m[0m "CostCenter"         = "ArchitectureLab"
+          [32m+[0m[0m "DataClassification" = "Internal"
+          [32m+[0m[0m "Domain"             = "sec"
+          [32m+[0m[0m "Environment"        = "dev"
+          [32m+[0m[0m "ManagedBy"          = "Terraform"
+          [32m+[0m[0m "Name"               = "novatel-sec-dev-trail"
+          [32m+[0m[0m "Owner"              = "Fernando"
+          [32m+[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        }
+      [32m+[0m[0m tags_all                      = {
+          [32m+[0m[0m "CostCenter"         = "ArchitectureLab"
+          [32m+[0m[0m "DataClassification" = "Internal"
+          [32m+[0m[0m "Domain"             = "sec"
+          [32m+[0m[0m "Environment"        = "dev"
+          [32m+[0m[0m "ManagedBy"          = "Terraform"
+          [32m+[0m[0m "Name"               = "novatel-sec-dev-trail"
+          [32m+[0m[0m "Owner"              = "Fernando"
+          [32m+[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        }
+
+      [32m+[0m[0m event_selector {
+          [32m+[0m[0m include_management_events = true
+          [32m+[0m[0m read_write_type           = "All"
+        }
+    }
+
+[1m  # module.security_baseline.aws_cloudwatch_log_group.trail[0m will be created
+[0m  [32m+[0m[0m resource "aws_cloudwatch_log_group" "trail" {
+      [32m+[0m[0m arn               = (known after apply)
+      [32m+[0m[0m id                = (known after apply)
+      [32m+[0m[0m kms_key_id        = "arn:aws:kms:us-east-1:151567229153:key/06e57a3c-ac44-4331-badb-f2db49032992"
+      [32m+[0m[0m log_group_class   = (known after apply)
+      [32m+[0m[0m name              = "/aws/cloudtrail/novatel-sec-dev"
+      [32m+[0m[0m name_prefix       = (known after apply)
+      [32m+[0m[0m retention_in_days = 30
+      [32m+[0m[0m skip_destroy      = false
+      [32m+[0m[0m tags              = {
+          [32m+[0m[0m "CostCenter"         = "ArchitectureLab"
+          [32m+[0m[0m "DataClassification" = "Internal"
+          [32m+[0m[0m "Domain"             = "sec"
+          [32m+[0m[0m "Environment"        = "dev"
+          [32m+[0m[0m "ManagedBy"          = "Terraform"
+          [32m+[0m[0m "Name"               = "novatel-sec-dev-cloudtrail-lg"
+          [32m+[0m[0m "Owner"              = "Fernando"
+          [32m+[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        }
+      [32m+[0m[0m tags_all          = {
+          [32m+[0m[0m "CostCenter"         = "ArchitectureLab"
+          [32m+[0m[0m "DataClassification" = "Internal"
+          [32m+[0m[0m "Domain"             = "sec"
+          [32m+[0m[0m "Environment"        = "dev"
+          [32m+[0m[0m "ManagedBy"          = "Terraform"
+          [32m+[0m[0m "Name"               = "novatel-sec-dev-cloudtrail-lg"
+          [32m+[0m[0m "Owner"              = "Fernando"
+          [32m+[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        }
+    }
+
+[1m  # module.security_baseline.aws_iam_role.config[0][0m will be [1m[31mdestroyed[0m
+  # (because index [0] is out of range for count)
+  # [0m(moved from module.security_baseline.aws_iam_role.config)
+[0m  [31m-[0m[0m resource "aws_iam_role" "config" {
+      [31m-[0m[0m arn                   = "arn:aws:iam::151567229153:role/novatel-sec-dev-config-role" [90m-> null[0m[0m
+      [31m-[0m[0m assume_role_policy    = jsonencode(
+            {
+              [31m-[0m[0m Statement = [
+                  [31m-[0m[0m {
+                      [31m-[0m[0m Action    = "sts:AssumeRole"
+                      [31m-[0m[0m Effect    = "Allow"
+                      [31m-[0m[0m Principal = {
+                          [31m-[0m[0m Service = "config.amazonaws.com"
+                        }
+                    },
+                ]
+              [31m-[0m[0m Version   = "2012-10-17"
+            }
+        ) [90m-> null[0m[0m
+      [31m-[0m[0m create_date           = "2026-03-13T01:21:49Z" [90m-> null[0m[0m
+      [31m-[0m[0m force_detach_policies = false [90m-> null[0m[0m
+      [31m-[0m[0m id                    = "novatel-sec-dev-config-role" [90m-> null[0m[0m
+      [31m-[0m[0m managed_policy_arns   = [] [90m-> null[0m[0m
+      [31m-[0m[0m max_session_duration  = 3600 [90m-> null[0m[0m
+      [31m-[0m[0m name                  = "novatel-sec-dev-config-role" [90m-> null[0m[0m
+      [31m-[0m[0m path                  = "/" [90m-> null[0m[0m
+      [31m-[0m[0m tags                  = {
+          [31m-[0m[0m "CostCenter"         = "ArchitectureLab"
+          [31m-[0m[0m "DataClassification" = "Internal"
+          [31m-[0m[0m "Domain"             = "sec"
+          [31m-[0m[0m "Environment"        = "dev"
+          [31m-[0m[0m "ManagedBy"          = "Terraform"
+          [31m-[0m[0m "Name"               = "novatel-sec-dev-config-role"
+          [31m-[0m[0m "Owner"              = "Fernando"
+          [31m-[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m tags_all              = {
+          [31m-[0m[0m "CostCenter"         = "ArchitectureLab"
+          [31m-[0m[0m "DataClassification" = "Internal"
+          [31m-[0m[0m "Domain"             = "sec"
+          [31m-[0m[0m "Environment"        = "dev"
+          [31m-[0m[0m "ManagedBy"          = "Terraform"
+          [31m-[0m[0m "Name"               = "novatel-sec-dev-config-role"
+          [31m-[0m[0m "Owner"              = "Fernando"
+          [31m-[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m unique_id             = "AROASGSQ4MDQZ73YWV4AH" [90m-> null[0m[0m
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.security_baseline.aws_iam_role_policy.cloudtrail_to_cw[0m will be created
+[0m  [32m+[0m[0m resource "aws_iam_role_policy" "cloudtrail_to_cw" {
+      [32m+[0m[0m id          = (known after apply)
+      [32m+[0m[0m name        = "novatel-sec-dev-cloudtrail-cw-policy"
+      [32m+[0m[0m name_prefix = (known after apply)
+      [32m+[0m[0m policy      = (known after apply)
+      [32m+[0m[0m role        = "novatel-sec-dev-cloudtrail-cw-role"
+    }
+
+[1m  # module.security_baseline.aws_kms_key.trail[0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_kms_key" "trail" {
+      [33m~[0m[0m description                        = "KMS key for CloudTrail and security logs" [33m->[0m[0m "KMS key for CloudTrail, CloudWatch Logs, and AWS Config delivery"
+        id                                 = "06e57a3c-ac44-4331-badb-f2db49032992"
+      [33m~[0m[0m policy                             = jsonencode(
+          [33m~[0m[0m {
+              [31m-[0m[0m Id        = "key-default-1"
+              [33m~[0m[0m Statement = [
+                  [33m~[0m[0m {
+                      [33m~[0m[0m Sid       = "Enable IAM User Permissions" [33m->[0m[0m "EnableRootPermissions"
+                        [90m# (4 unchanged attributes hidden)[0m[0m
+                    },
+                  [32m+[0m[0m {
+                      [32m+[0m[0m Action    = [
+                          [32m+[0m[0m "kms:Encrypt",
+                          [32m+[0m[0m "kms:Decrypt",
+                          [32m+[0m[0m "kms:ReEncrypt*",
+                          [32m+[0m[0m "kms:GenerateDataKey*",
+                          [32m+[0m[0m "kms:DescribeKey",
+                        ]
+                      [32m+[0m[0m Effect    = "Allow"
+                      [32m+[0m[0m Principal = {
+                          [32m+[0m[0m Service = "logs.us-east-1.amazonaws.com"
+                        }
+                      [32m+[0m[0m Resource  = "*"
+                      [32m+[0m[0m Sid       = "AllowCloudWatchLogsUseOfTheKey"
+                    },
+                  [32m+[0m[0m {
+                      [32m+[0m[0m Action    = [
+                          [32m+[0m[0m "kms:GenerateDataKey*",
+                          [32m+[0m[0m "kms:DescribeKey",
+                          [32m+[0m[0m "kms:Encrypt",
+                          [32m+[0m[0m "kms:Decrypt",
+                          [32m+[0m[0m "kms:ReEncrypt*",
+                        ]
+                      [32m+[0m[0m Effect    = "Allow"
+                      [32m+[0m[0m Principal = {
+                          [32m+[0m[0m Service = "cloudtrail.amazonaws.com"
+                        }
+                      [32m+[0m[0m Resource  = "*"
+                      [32m+[0m[0m Sid       = "AllowCloudTrailUseOfTheKey"
+                    },
+                  [32m+[0m[0m {
+                      [32m+[0m[0m Action    = [
+                          [32m+[0m[0m "kms:GenerateDataKey*",
+                          [32m+[0m[0m "kms:DescribeKey",
+                          [32m+[0m[0m "kms:Encrypt",
+                          [32m+[0m[0m "kms:Decrypt",
+                          [32m+[0m[0m "kms:ReEncrypt*",
+                        ]
+                      [32m+[0m[0m Effect    = "Allow"
+                      [32m+[0m[0m Principal = {
+                          [32m+[0m[0m Service = "config.amazonaws.com"
+                        }
+                      [32m+[0m[0m Resource  = "*"
+                      [32m+[0m[0m Sid       = "AllowConfigUseOfTheKey"
+                    },
+                ]
+                [90m# (1 unchanged attribute hidden)[0m[0m
+            }
+        )
+        tags                               = {
+            "CostCenter"         = "ArchitectureLab"
+            "DataClassification" = "Internal"
+            "Domain"             = "sec"
+            "Environment"        = "dev"
+            "ManagedBy"          = "Terraform"
+            "Name"               = "novatel-sec-dev-trail-kms"
+            "Owner"              = "Fernando"
+            "Project"            = "Telco-Sentinel-AWS"
+        }
+        [90m# (13 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.security_baseline.aws_s3_bucket.config[0][0m will be [1m[31mdestroyed[0m
+  # (because index [0] is out of range for count)
+  # [0m(moved from module.security_baseline.aws_s3_bucket.config)
+[0m  [31m-[0m[0m resource "aws_s3_bucket" "config" {
+      [31m-[0m[0m arn                         = "arn:aws:s3:::novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m bucket                      = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m bucket_domain_name          = "novatel-sec-dev-config-151567229153.s3.amazonaws.com" [90m-> null[0m[0m
+      [31m-[0m[0m bucket_regional_domain_name = "novatel-sec-dev-config-151567229153.s3.us-east-1.amazonaws.com" [90m-> null[0m[0m
+      [31m-[0m[0m force_destroy               = false [90m-> null[0m[0m
+      [31m-[0m[0m hosted_zone_id              = "Z3AQBSTGFYJSTF" [90m-> null[0m[0m
+      [31m-[0m[0m id                          = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m object_lock_enabled         = false [90m-> null[0m[0m
+      [31m-[0m[0m policy                      = jsonencode(
+            {
+              [31m-[0m[0m Statement = [
+                  [31m-[0m[0m {
+                      [31m-[0m[0m Action    = "s3:GetBucketAcl"
+                      [31m-[0m[0m Effect    = "Allow"
+                      [31m-[0m[0m Principal = {
+                          [31m-[0m[0m Service = "config.amazonaws.com"
+                        }
+                      [31m-[0m[0m Resource  = "arn:aws:s3:::novatel-sec-dev-config-151567229153"
+                      [31m-[0m[0m Sid       = "AWSConfigBucketPermissionsCheck"
+                    },
+                  [31m-[0m[0m {
+                      [31m-[0m[0m Action    = "s3:PutObject"
+                      [31m-[0m[0m Condition = {
+                          [31m-[0m[0m StringEquals = {
+                              [31m-[0m[0m "s3:x-amz-acl" = "bucket-owner-full-control"
+                            }
+                        }
+                      [31m-[0m[0m Effect    = "Allow"
+                      [31m-[0m[0m Principal = {
+                          [31m-[0m[0m Service = "config.amazonaws.com"
+                        }
+                      [31m-[0m[0m Resource  = "arn:aws:s3:::novatel-sec-dev-config-151567229153/AWSLogs/151567229153/Config/*"
+                      [31m-[0m[0m Sid       = "AWSConfigBucketDelivery"
+                    },
+                ]
+              [31m-[0m[0m Version   = "2012-10-17"
+            }
+        ) [90m-> null[0m[0m
+      [31m-[0m[0m region                      = "us-east-1" [90m-> null[0m[0m
+      [31m-[0m[0m request_payer               = "BucketOwner" [90m-> null[0m[0m
+      [31m-[0m[0m tags                        = {
+          [31m-[0m[0m "CostCenter"         = "ArchitectureLab"
+          [31m-[0m[0m "DataClassification" = "Internal"
+          [31m-[0m[0m "Domain"             = "sec"
+          [31m-[0m[0m "Environment"        = "dev"
+          [31m-[0m[0m "ManagedBy"          = "Terraform"
+          [31m-[0m[0m "Name"               = "novatel-sec-dev-config"
+          [31m-[0m[0m "Owner"              = "Fernando"
+          [31m-[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m tags_all                    = {
+          [31m-[0m[0m "CostCenter"         = "ArchitectureLab"
+          [31m-[0m[0m "DataClassification" = "Internal"
+          [31m-[0m[0m "Domain"             = "sec"
+          [31m-[0m[0m "Environment"        = "dev"
+          [31m-[0m[0m "ManagedBy"          = "Terraform"
+          [31m-[0m[0m "Name"               = "novatel-sec-dev-config"
+          [31m-[0m[0m "Owner"              = "Fernando"
+          [31m-[0m[0m "Project"            = "Telco-Sentinel-AWS"
+        } [90m-> null[0m[0m
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m grant {
+          [31m-[0m[0m id          = "056adcbe0583499ca00b571d753428727a032ca8025a40405d74264272747239" [90m-> null[0m[0m
+          [31m-[0m[0m permissions = [
+              [31m-[0m[0m "FULL_CONTROL",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m type        = "CanonicalUser" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [31m-[0m[0m server_side_encryption_configuration {
+          [31m-[0m[0m rule {
+              [31m-[0m[0m bucket_key_enabled = false [90m-> null[0m[0m
+
+              [31m-[0m[0m apply_server_side_encryption_by_default {
+                  [31m-[0m[0m kms_master_key_id = "arn:aws:kms:us-east-1:151567229153:key/06e57a3c-ac44-4331-badb-f2db49032992" [90m-> null[0m[0m
+                  [31m-[0m[0m sse_algorithm     = "aws:kms" [90m-> null[0m[0m
+                }
+            }
+        }
+
+      [31m-[0m[0m versioning {
+          [31m-[0m[0m enabled    = false [90m-> null[0m[0m
+          [31m-[0m[0m mfa_delete = false [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.security_baseline.aws_s3_bucket_policy.config[0][0m will be [1m[31mdestroyed[0m
+  # (because index [0] is out of range for count)
+  # [0m(moved from module.security_baseline.aws_s3_bucket_policy.config)
+[0m  [31m-[0m[0m resource "aws_s3_bucket_policy" "config" {
+      [31m-[0m[0m bucket = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m id     = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m policy = jsonencode(
+            {
+              [31m-[0m[0m Statement = [
+                  [31m-[0m[0m {
+                      [31m-[0m[0m Action    = "s3:GetBucketAcl"
+                      [31m-[0m[0m Effect    = "Allow"
+                      [31m-[0m[0m Principal = {
+                          [31m-[0m[0m Service = "config.amazonaws.com"
+                        }
+                      [31m-[0m[0m Resource  = "arn:aws:s3:::novatel-sec-dev-config-151567229153"
+                      [31m-[0m[0m Sid       = "AWSConfigBucketPermissionsCheck"
+                    },
+                  [31m-[0m[0m {
+                      [31m-[0m[0m Action    = "s3:PutObject"
+                      [31m-[0m[0m Condition = {
+                          [31m-[0m[0m StringEquals = {
+                              [31m-[0m[0m "s3:x-amz-acl" = "bucket-owner-full-control"
+                            }
+                        }
+                      [31m-[0m[0m Effect    = "Allow"
+                      [31m-[0m[0m Principal = {
+                          [31m-[0m[0m Service = "config.amazonaws.com"
+                        }
+                      [31m-[0m[0m Resource  = "arn:aws:s3:::novatel-sec-dev-config-151567229153/AWSLogs/151567229153/Config/*"
+                      [31m-[0m[0m Sid       = "AWSConfigBucketDelivery"
+                    },
+                ]
+              [31m-[0m[0m Version   = "2012-10-17"
+            }
+        ) [90m-> null[0m[0m
+    }
+
+[1m  # module.security_baseline.aws_s3_bucket_public_access_block.config[0][0m will be [1m[31mdestroyed[0m
+  # (because index [0] is out of range for count)
+  # [0m(moved from module.security_baseline.aws_s3_bucket_public_access_block.config)
+[0m  [31m-[0m[0m resource "aws_s3_bucket_public_access_block" "config" {
+      [31m-[0m[0m block_public_acls       = true [90m-> null[0m[0m
+      [31m-[0m[0m block_public_policy     = true [90m-> null[0m[0m
+      [31m-[0m[0m bucket                  = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m id                      = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m ignore_public_acls      = true [90m-> null[0m[0m
+      [31m-[0m[0m restrict_public_buckets = true [90m-> null[0m[0m
+    }
+
+[1m  # module.security_baseline.aws_s3_bucket_server_side_encryption_configuration.config[0][0m will be [1m[31mdestroyed[0m
+  # (because index [0] is out of range for count)
+  # [0m(moved from module.security_baseline.aws_s3_bucket_server_side_encryption_configuration.config)
+[0m  [31m-[0m[0m resource "aws_s3_bucket_server_side_encryption_configuration" "config" {
+      [31m-[0m[0m bucket                = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+      [31m-[0m[0m id                    = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+
+      [31m-[0m[0m rule {
+          [31m-[0m[0m bucket_key_enabled = false [90m-> null[0m[0m
+
+          [31m-[0m[0m apply_server_side_encryption_by_default {
+              [31m-[0m[0m kms_master_key_id = "arn:aws:kms:us-east-1:151567229153:key/06e57a3c-ac44-4331-badb-f2db49032992" [90m-> null[0m[0m
+              [31m-[0m[0m sse_algorithm     = "aws:kms" [90m-> null[0m[0m
+            }
+        }
+    }
+
+[1m  # module.security_baseline.aws_securityhub_standards_subscription.fsbp[0m will be created
+[0m  [32m+[0m[0m resource "aws_securityhub_standards_subscription" "fsbp" {
+      [32m+[0m[0m id            = (known after apply)
+      [32m+[0m[0m standards_arn = "arn:aws:securityhub:us-east-1::standards/aws-foundational-security-best-practices/v/1.0.0"
+    }
+
+[1mPlan:[0m [0m4 to add, 1 to change, 5 to destroy.
+
+Changes to Outputs:
+  [32m+[0m[0m cloudtrail_arn            = (known after apply)
+  [31m-[0m[0m config_bucket_name        = "novatel-sec-dev-config-151567229153" [90m-> null[0m[0m
+  [31m-[0m[0m config_recorder_name      = "novatel-sec-dev-recorder" [90m-> null[0m[0m
+[90m
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ[0m
+
+Saved the plan to: tfplan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "tfplan"

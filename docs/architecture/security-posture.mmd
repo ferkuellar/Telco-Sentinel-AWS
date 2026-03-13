@@ -1,0 +1,21 @@
+flowchart TD
+    A[AWS Account / Region] --> B[CloudTrail Multi-Region]
+    A --> C[AWS Config]
+    A --> D[GuardDuty]
+    A --> E[Security Hub CSPM]
+
+    B --> F[S3 Log Bucket]
+    B --> G[CloudWatch Logs]
+    B --> H[KMS Key]
+
+    C --> I[Config Recorder]
+    C --> J[Config Delivery Channel]
+    J --> F
+
+    D --> E
+    B --> E
+    C --> E
+
+    E --> K[FSBP Controls]
+    E --> L[Findings]
+    E --> M[Security Score]

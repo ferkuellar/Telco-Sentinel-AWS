@@ -1,0 +1,162 @@
+{
+    "logGroups": [
+        {
+            "logGroupName": "/aws-glue/crawlers",
+            "creationTime": 1757912403531,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/crawlers:*",
+            "storedBytes": 1896,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/crawlers"
+        },
+        {
+            "logGroupName": "/aws-glue/jobs/error",
+            "creationTime": 1757963086051,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/jobs/error:*",
+            "storedBytes": 150610,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/jobs/error"
+        },
+        {
+            "logGroupName": "/aws-glue/jobs/logs-v2",
+            "creationTime": 1757963110306,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/jobs/logs-v2:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/jobs/logs-v2"
+        },
+        {
+            "logGroupName": "/aws-glue/jobs/output",
+            "creationTime": 1757963135995,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/jobs/output:*",
+            "storedBytes": 302,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/jobs/output"
+        },
+        {
+            "logGroupName": "/aws-glue/sessions/error",
+            "creationTime": 1757962604129,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/sessions/error:*",
+            "storedBytes": 268351,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/sessions/error"
+        },
+        {
+            "logGroupName": "/aws-glue/sessions/output",
+            "creationTime": 1757962638270,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/sessions/output:*",
+            "storedBytes": 50385,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws-glue/sessions/output"
+        },
+        {
+            "logGroupName": "/aws/cloudtrail/aegis-lz-aws-dev",
+            "creationTime": 1773016592173,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/cloudtrail/aegis-lz-aws-dev:*",
+            "storedBytes": 17667794,
+            "kmsKeyId": "arn:aws:kms:us-east-1:151567229153:key/b98f542d-6be7-469a-b4dd-b1598510f940",
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/cloudtrail/aegis-lz-aws-dev"
+        },
+        {
+            "logGroupName": "/aws/cloudtrail/nbf-sentinel-dev",
+            "creationTime": 1773106823570,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/cloudtrail/nbf-sentinel-dev:*",
+            "storedBytes": 12595884,
+            "kmsKeyId": "arn:aws:kms:us-east-1:151567229153:key/f90c9566-cb3b-4ef3-aa77-42770ca2250c",
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/cloudtrail/nbf-sentinel-dev"
+        },
+        {
+            "logGroupName": "/aws/cloudtrail/novatel-sec-dev",
+            "creationTime": 1773367064242,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/cloudtrail/novatel-sec-dev:*",
+            "storedBytes": 0,
+            "kmsKeyId": "arn:aws:kms:us-east-1:151567229153:key/06e57a3c-ac44-4331-badb-f2db49032992",
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/cloudtrail/novatel-sec-dev"
+        },
+        {
+            "logGroupName": "/aws/lambda/FinGuardIngestFunction",
+            "creationTime": 1764124286115,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/FinGuardIngestFunction:*",
+            "storedBytes": 5985,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/FinGuardIngestFunction"
+        },
+        {
+            "logGroupName": "/aws/lambda/alsupernova-cart",
+            "creationTime": 1771617090031,
+            "retentionInDays": 7,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/alsupernova-cart:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/alsupernova-cart"
+        },
+        {
+            "logGroupName": "/aws/lambda/alsupernova-catalog",
+            "creationTime": 1771616959589,
+            "retentionInDays": 7,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/alsupernova-catalog:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/alsupernova-catalog"
+        },
+        {
+            "logGroupName": "/aws/lambda/alsupernova-orders",
+            "creationTime": 1771617200872,
+            "retentionInDays": 7,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/alsupernova-orders:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/lambda/alsupernova-orders"
+        },
+        {
+            "logGroupName": "/aws/vpc/flowlogs/aegis-lz-aws-dev",
+            "creationTime": 1773016592154,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/vpc/flowlogs/aegis-lz-aws-dev:*",
+            "storedBytes": 128491,
+            "kmsKeyId": "arn:aws:kms:us-east-1:151567229153:key/b98f542d-6be7-469a-b4dd-b1598510f940",
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/vpc/flowlogs/aegis-lz-aws-dev"
+        },
+        {
+            "logGroupName": "/aws/vpc/flowlogs/nbf-sentinel-dev",
+            "creationTime": 1773106823566,
+            "retentionInDays": 14,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/vpc/flowlogs/nbf-sentinel-dev:*",
+            "storedBytes": 5846814,
+            "kmsKeyId": "arn:aws:kms:us-east-1:151567229153:key/f90c9566-cb3b-4ef3-aa77-42770ca2250c",
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/vpc/flowlogs/nbf-sentinel-dev"
+        },
+        {
+            "logGroupName": "/aws/vpc/novatel-net-dev/flowlogs",
+            "creationTime": 1773362687826,
+            "retentionInDays": 14,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/vpc/novatel-net-dev/flowlogs:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:151567229153:log-group:/aws/vpc/novatel-net-dev/flowlogs"
+        }
+    ]
+}

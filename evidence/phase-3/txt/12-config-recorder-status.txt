@@ -1,0 +1,12 @@
+{
+    "ConfigurationRecordersStatus": [
+        {
+            "arn": "arn:aws:config:us-east-1:151567229153:configuration-recorder/aegis-lz-aws-dev-config-recorder/g9rhmwqs9pkrnpkt",
+            "name": "aegis-lz-aws-dev-config-recorder",
+            "lastStartTime": "2026-03-08T18:48:02.223000-06:00",
+            "recording": true,
+            "lastStatus": "SUCCESS",
+            "lastStatusChangeTime": "2026-03-12T18:33:12.769000-06:00"
+        }
+    ]
+}

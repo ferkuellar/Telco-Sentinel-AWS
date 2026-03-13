@@ -1,0 +1,5 @@
+{
+    "DetectorIds": [
+        "737b5979c88a42728beb98cb3bba76cb"
+    ]
+}
