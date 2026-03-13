@@ -20,16 +20,7 @@ locals {
     ManagedBy          = "Terraform"
   }
 
-  account_model = {
-    management     = "Management Account"
-    log_archive    = "Log Archive Account"
-    audit          = "Audit Account"
-    shared         = "Shared Services Account"
-    observability  = "Observability Account"
-    telco_dev      = "Telco Platform Dev"
-    telco_prod     = "Telco Platform Prod"
-    sandbox        = "Experimentation Account"
-  }
+  name_prefix = "novatel-net-${var.environment}"
 }
 
 provider "aws" {
@@ -38,4 +29,16 @@ provider "aws" {
   default_tags {
     tags = local.mandatory_tags
   }
+}
+
+module "network" {
+  source = "../../modules/network"
+
+  name_prefix          = local.name_prefix
+  vpc_cidr             = var.vpc_cidr
+  aws_region           = var.aws_region
+  azs                  = var.azs
+  public_subnet_cidrs  = var.public_subnet_cidrs
+  private_subnet_cidrs = var.private_subnet_cidrs
+  tags                 = local.mandatory_tags
 }

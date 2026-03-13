@@ -1,15 +1,47 @@
 output "phase" {
-  value = "phase-1"
+  value = "phase-2"
 }
 
-output "environment" {
-  value = var.environment
+output "vpc_id" {
+  value = module.network.vpc_id
 }
 
-output "mandatory_tags" {
-  value = local.mandatory_tags
+output "public_subnet_ids" {
+  value = module.network.public_subnet_ids
 }
 
-output "account_model" {
-  value = local.account_model
+output "private_subnet_ids" {
+  value = module.network.private_subnet_ids
+}
+
+output "internet_gateway_id" {
+  value = module.network.internet_gateway_id
+}
+
+output "nat_gateway_id" {
+  value = module.network.nat_gateway_id
+}
+
+output "public_route_table_id" {
+  value = module.network.public_route_table_id
+}
+
+output "private_route_table_id" {
+  value = module.network.private_route_table_id
+}
+
+output "public_security_group_id" {
+  value = module.network.public_security_group_id
+}
+
+output "private_security_group_id" {
+  value = module.network.private_security_group_id
+}
+
+output "flow_log_id" {
+  value = module.network.flow_log_id
+}
+
+output "flow_log_group_name" {
+  value = module.network.flow_log_group_name
 }
