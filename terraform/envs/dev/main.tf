@@ -42,3 +42,11 @@ module "network" {
   private_subnet_cidrs = var.private_subnet_cidrs
   tags                 = local.mandatory_tags
 }
+
+module "security_baseline" {
+  source = "../../modules/security_baseline"
+
+  name_prefix = "novatel-sec-${var.environment}"
+  aws_region  = var.aws_region
+  tags        = local.mandatory_tags
+}

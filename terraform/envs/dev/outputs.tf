@@ -45,3 +45,43 @@ output "flow_log_id" {
 output "flow_log_group_name" {
   value = module.network.flow_log_group_name
 }
+
+output "kms_key_arn" {
+  value = module.security_baseline.kms_key_arn
+}
+
+output "trail_bucket_name" {
+  value = module.security_baseline.trail_bucket_name
+}
+
+output "config_bucket_name" {
+  value = module.security_baseline.config_bucket_name
+}
+
+output "cloudtrail_name" {
+  value = module.security_baseline.cloudtrail_name
+}
+
+output "cloudtrail_arn" {
+  value = module.security_baseline.cloudtrail_arn
+}
+
+output "cloudwatch_log_group_name" {
+  value = module.security_baseline.cloudwatch_log_group_name
+}
+
+output "config_recorder_name" {
+  value = module.security_baseline.config_recorder_name
+}
+
+output "guardduty_detector_id" {
+  value = module.security_baseline.guardduty_detector_id
+}
+
+output "securityhub_enabled" {
+  value = module.security_baseline.securityhub_enabled
+}
+
+output "fsbp_enabled" {
+  value = module.security_baseline.fsbp_enabled
+}
