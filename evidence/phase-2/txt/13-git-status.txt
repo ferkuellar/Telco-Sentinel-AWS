@@ -1,0 +1,25 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   main.tf
+	modified:   outputs.tf
+	modified:   variables.tf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../docs/adrs/ADR-005-network-segmentation.md
+	../../../docs/adrs/ADR-006-nat-strategy.md
+	../../../docs/architecture/Flujo-de-salida.mmd
+	../../../docs/architecture/network-flow.md
+	../../../docs/architecture/network-flow.mmd
+	../../../docs/architecture/subnet-segmentation.md
+	../../../docs/runbooks/network-validation.md
+	../../../evidence/phase-2/
+	terraform.tfvars
+	tfplan
+	../../modules/
+
+no changes added to commit (use "git add" and/or "git commit -a")

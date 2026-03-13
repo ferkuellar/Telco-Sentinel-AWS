@@ -1,0 +1,14 @@
+sequenceDiagram
+    participant Workload as EC2/Service in Private Subnet
+    participant RT as Private Route Table
+    participant NAT as NAT Gateway
+    participant IGW as Internet Gateway
+    participant Internet as Internet
+
+    Workload->>RT: 0.0.0.0/0
+    RT->>NAT: Forward outbound traffic
+    NAT->>IGW: Send translated traffic
+    IGW->>Internet: Outbound connection
+    Internet-->>IGW: Response
+    IGW-->>NAT: Return path
+    NAT-->>Workload: Established outbound response only

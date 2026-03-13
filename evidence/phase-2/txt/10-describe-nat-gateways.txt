@@ -1,0 +1,114 @@
+{
+    "NatGateways": [
+        {
+            "CreateTime": "2026-03-10T00:44:14+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-063c40f1c2849e71c",
+                    "NetworkInterfaceId": "eni-0a4d4aa317c9836aa",
+                    "PrivateIp": "10.20.1.220",
+                    "PublicIp": "54.144.14.159",
+                    "AssociationId": "eipassoc-053b50ac380a4d592",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-03e5d9f19b93dd913",
+            "State": "available",
+            "SubnetId": "subnet-0b0958b45074309d1",
+            "VpcId": "vpc-041a277d11b81fc73",
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "Sentinel-Foundation-AWS"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Fernando"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "Terraform"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Platform"
+                },
+                {
+                    "Key": "SecurityTier",
+                    "Value": "Foundation"
+                },
+                {
+                    "Key": "BusinessUnit",
+                    "Value": "Northbound"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "Internal"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "nbf-sentinel-dev-nat-a"
+                }
+            ],
+            "ConnectivityType": "public"
+        },
+        {
+            "CreateTime": "2026-03-13T00:45:14+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-00e066ac8d4a86bda",
+                    "NetworkInterfaceId": "eni-0cfa93c4680cb64ca",
+                    "PrivateIp": "10.20.1.138",
+                    "PublicIp": "52.71.83.113",
+                    "AssociationId": "eipassoc-0d1500ed5eee6995c",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0d8ea940fbb024980",
+            "State": "available",
+            "SubnetId": "subnet-07eae3b110391db68",
+            "VpcId": "vpc-007bfb08f99ed1f9c",
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "Telco-Sentinel-AWS"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Fernando"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "Terraform"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "ArchitectureLab"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "Internal"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Domain",
+                    "Value": "net"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "novatel-net-dev-nat-useast1"
+                }
+            ],
+            "ConnectivityType": "public"
+        }
+    ]
+}

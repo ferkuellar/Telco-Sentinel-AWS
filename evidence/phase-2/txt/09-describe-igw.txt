@@ -1,0 +1,143 @@
+{
+    "InternetGateways": [
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-041a277d11b81fc73"
+                }
+            ],
+            "InternetGatewayId": "igw-0328a474805998c23",
+            "OwnerId": "151567229153",
+            "Tags": [
+                {
+                    "Key": "SecurityTier",
+                    "Value": "Foundation"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Fernando"
+                },
+                {
+                    "Key": "BusinessUnit",
+                    "Value": "Northbound"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "nbf-sentinel-dev-igw"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "Platform"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "Terraform"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "Internal"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Sentinel-Foundation-AWS"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-007bfb08f99ed1f9c"
+                }
+            ],
+            "InternetGatewayId": "igw-07f4ccee12d2242da",
+            "OwnerId": "151567229153",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "novatel-net-dev-igw-useast1"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Fernando"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Telco-Sentinel-AWS"
+                },
+                {
+                    "Key": "DataClassification",
+                    "Value": "Internal"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "Terraform"
+                },
+                {
+                    "Key": "Domain",
+                    "Value": "net"
+                },
+                {
+                    "Key": "CostCenter",
+                    "Value": "ArchitectureLab"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0fb2af4eafd34adb2"
+                }
+            ],
+            "InternetGatewayId": "igw-0dd577b2db1f131ac",
+            "OwnerId": "151567229153",
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "aegis-lz-aws"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Fernando"
+                },
+                {
+                    "Key": "Tier",
+                    "Value": "network"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "aegis-lz-aws-dev-igw"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "Terraform"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0c1d93e8bb28522d3"
+                }
+            ],
+            "InternetGatewayId": "igw-0fed992b3b6f04e73",
+            "OwnerId": "151567229153",
+            "Tags": []
+        }
+    ]
+}

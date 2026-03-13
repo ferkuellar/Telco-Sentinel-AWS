@@ -1,0 +1,31 @@
+# Phase 2 Validation Checklist
+
+- [X] Network module created
+- [X] VPC created
+- [X] DNS support enabled
+- [X] DNS hostnames enabled
+- [X] Two public subnets created
+- [X] Two private subnets created
+- [X] Subnets distributed across two AZs
+- [X] Internet Gateway attached
+- [X] NAT Gateway created
+- [X] Public route table created
+- [X] Private route table created
+- [X] Public route to IGW exists
+- [X] Private route to NAT exists
+- [X] Public subnet associations completed
+- [X] Private subnet associations completed
+- [X] Public security group created
+- [X] Private security group created
+- [X] CloudWatch Log Group for flow logs created
+- [X] IAM role for flow logs created
+- [X] VPC Flow Logs enabled
+- [X] Terraform fmt executed
+- [X] terraform init executed successfully
+- [X] terraform validate executed successfully
+- [X] terraform plan executed successfully
+- [X] terraform apply executed successfully
+- [X] Terraform outputs exported
+- [X] AWS CLI validation outputs exported
+- [X] Screenshots captured
+- [X] Phase summary completed

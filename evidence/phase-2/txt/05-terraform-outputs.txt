@@ -1,0 +1,18 @@
+flow_log_group_name = "/aws/vpc/novatel-net-dev/flowlogs"
+flow_log_id = "fl-05e8590a52f499b54"
+internet_gateway_id = "igw-07f4ccee12d2242da"
+nat_gateway_id = "nat-0d8ea940fbb024980"
+phase = "phase-2"
+private_route_table_id = "rtb-0c3604106ce8bd373"
+private_security_group_id = "sg-0624b3ee55ed82e62"
+private_subnet_ids = [
+  "subnet-07cdc86f2ca890dfa",
+  "subnet-01f4fb50d39b4e3ae",
+]
+public_route_table_id = "rtb-02704e8e4521e3a40"
+public_security_group_id = "sg-04c3d7edac85b6d85"
+public_subnet_ids = [
+  "subnet-07eae3b110391db68",
+  "subnet-01b38163a2e8bfb15",
+]
+vpc_id = "vpc-007bfb08f99ed1f9c"

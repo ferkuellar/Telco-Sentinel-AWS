@@ -1,0 +1,32 @@
+flowchart LR
+    IGW[Internet Gateway]
+
+    subgraph VPC["VPC novatel-net-dev-vpc-use1"]
+        subgraph AZ1["AZ-1"]
+            PUB1["Public Subnet A\n10.20.1.0/24"]
+            PRIV1["Private Subnet A\n10.20.11.0/24"]
+            NAT1["NAT Gateway"]
+        end
+
+        subgraph AZ2["AZ-2"]
+            PUB2["Public Subnet B\n10.20.2.0/24"]
+            PRIV2["Private Subnet B\n10.20.12.0/24"]
+        end
+
+        RTB1["Public Route Table"]
+        RTB2["Private Route Table"]
+        FLOW["VPC Flow Logs"]
+    end
+
+    IGW --> PUB1
+    IGW --> PUB2
+    PUB1 --> NAT1
+    PRIV1 --> NAT1
+    PRIV2 --> NAT1
+
+    PUB1 --> RTB1
+    PUB2 --> RTB1
+    PRIV1 --> RTB2
+    PRIV2 --> RTB2
+
+    VPC --> FLOW
