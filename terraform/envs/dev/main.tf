@@ -50,3 +50,12 @@ module "security_baseline" {
   aws_region  = var.aws_region
   tags        = local.mandatory_tags
 }
+
+module "telco_observability" {
+  source = "../../modules/telco_observability"
+
+  name_prefix      = "novatel-obsv-${var.environment}"
+  aws_region       = var.aws_region
+  tags             = local.mandatory_tags
+  metric_namespace = var.metric_namespace
+}

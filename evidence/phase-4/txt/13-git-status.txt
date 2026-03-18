@@ -1,0 +1,28 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   terraform/envs/dev/main.tf
+	modified:   terraform/envs/dev/outputs.tf
+	modified:   terraform/envs/dev/terraform.tfvars
+	modified:   terraform/envs/dev/tfplan
+	modified:   terraform/envs/dev/variables.tf
+	modified:   terraform/modules/security_baseline/main.tf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	docs/adrs/ADR-010-kinesis-lambda-mvp.md
+	docs/adrs/ADR-011-custom-metrics-and-dashboard.md
+	docs/adrs/ADR-012-msk-enterprise-roadmap.md
+	docs/architecture/msk-roadmap.md
+	docs/architecture/telco-observability.md
+	docs/architecture/telemetry-schema.md
+	docs/runbooks/observability-validation.md
+	evidence/phase-4/
+	scripts/generate-sample-telemetry.py
+	scripts/lambda_src/
+	terraform/modules/telco_observability/
+
+no changes added to commit (use "git add" and/or "git commit -a")

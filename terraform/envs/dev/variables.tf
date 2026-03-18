@@ -53,3 +53,9 @@ variable "private_subnet_cidrs" {
   description = "Private subnet CIDR blocks"
   type        = list(string)
 }
+
+variable "metric_namespace" {
+  description = "Custom metric namespace for telco observability"
+  type        = string
+  default     = "Telco/Observability"
+}

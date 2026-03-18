@@ -1,0 +1,59 @@
+{
+    "Configuration": {
+        "FunctionName": "novatel-obsv-dev-processor",
+        "FunctionArn": "arn:aws:lambda:us-east-1:151567229153:function:novatel-obsv-dev-processor",
+        "Runtime": "python3.12",
+        "Role": "arn:aws:iam::151567229153:role/novatel-obsv-dev-lambda-role",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 1241,
+        "Description": "",
+        "Timeout": 60,
+        "MemorySize": 256,
+        "LastModified": "2026-03-18T01:47:54.861+0000",
+        "CodeSha256": "TyEHKWXHcWTbtM1m/CyZjsxvZi3ym/Og4cci6G2rxOU=",
+        "Version": "$LATEST",
+        "Environment": {
+            "Variables": {
+                "METRIC_NAMESPACE": "Telco/Observability"
+            }
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "ee34ed90-013c-487b-9774-e7df1bd14479",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:us-east-1::runtime:27990c3d0965bea97240f3380b8d623b692705303bbde4c31fb02fa7daa05453"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/novatel-obsv-dev-processor"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/151567229153/novatel-obsv-dev-processor-d1c33278-f6c0-4665-af55-cec8408baa81?versionId=HRqzgNJEhwlT.07WCNzvB9pPGwrdi1VF&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLWVhc3QtMSJIMEYCIQC6KtxSMD9ZvvM15lTao3SBRgcTUh76ozPT9fAUAhOl8QIhALGlzSYAl1CBldgdk6Vp0rk1TzNJziEhIJJAViL%2BTnoQKpQCCPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzQ5Njc4OTAyODM5IgzuTnKI91i9NKCkXpMq6AE8zs0P0HIYteR7fZ7xod%2B0%2B%2FiEqLmrpl%2BGKAMH47k8KpRj6ih%2Fw2kBBlOOyhm8p2qHRPjaPNOdQ8FF6R3hzpeVDUtSc26lP%2FyPAykjXmt9QVrewTF6Rlt5I%2BDjN9GrQBeFZpJjY6B971TwN7a1HDNSB%2BI%2FdtV7wHzKSZT%2FpFJ0TYYhTBcSjOZnUV9TPObosEhLvyEYcyxOTzMLNBH1C1XmqGDkD58VN9q4D4Nq2EGuONd1wwB5N5mUlNzL7HIb8SiQ%2FDcbp3SMEb6H4TeDVHfnwb4pfTTwpQuRz2xlMsNkxI8v%2BddrZONfMNP0580GOowBD%2BtUrWoMJb%2B854OKZ5jjQQJTmo2u0a91X%2BK%2BL%2FlgfGLgIteoqzBpNNJG%2BKJkGTiC%2FeJGokPdPSaoxAewDNaHdIr52oOSUlDJaScBiRq0A2XoKm%2BkPDxH38cANxqN6TsQk6e0mgGNneRlhU6Ysy0D5OFjXbO08G%2F3ZP2YKl0HmC2XtMubsFy2qSGwbGE%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260318T015520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY37EWLE7BU%2F20260318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1db9bf6a244cc5f450d341fd7f67f4aa5911dd66466fa46f3ededf67df93d56b"
+    },
+    "Tags": {
+        "Project": "Telco-Sentinel-AWS",
+        "Owner": "Fernando",
+        "ManagedBy": "Terraform",
+        "CostCenter": "ArchitectureLab",
+        "DataClassification": "Internal",
+        "Environment": "dev",
+        "Domain": "obsv",
+        "Name": "novatel-obsv-dev-processor"
+    }
+}

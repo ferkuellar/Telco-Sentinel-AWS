@@ -1,0 +1,20 @@
+flowchart LR
+    PROD[Telemetry Producer<br/>Python simulator] --> KDS[Kinesis Data Stream]
+    KDS --> LMB[Lambda Processor]
+    LMB --> CWM[CloudWatch Custom Metrics]
+    LMB --> CWL[CloudWatch Logs]
+    CWM --> DSH[NOC Dashboard]
+    CWM --> ALM[CloudWatch Alarms]
+
+    subgraph SecurityBaseline["Security Baseline"]
+        CT[CloudTrail]
+        CFG[AWS Config]
+        GD[GuardDuty]
+        SH[Security Hub]
+    end
+
+    KDS -. monitored .-> DSH
+    LMB -. monitored .-> DSH
+    CT -. audit context .-> SH
+    CFG -. posture context .-> SH
+    GD -. findings .-> SH

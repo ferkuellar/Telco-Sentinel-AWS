@@ -1,0 +1,20 @@
+{
+    "StreamDescriptionSummary": {
+        "StreamName": "novatel-obsv-dev-stream",
+        "StreamARN": "arn:aws:kinesis:us-east-1:151567229153:stream/novatel-obsv-dev-stream",
+        "StreamStatus": "ACTIVE",
+        "StreamModeDetails": {
+            "StreamMode": "PROVISIONED"
+        },
+        "RetentionPeriodHours": 24,
+        "StreamCreationTimestamp": "2026-03-17T19:47:35-06:00",
+        "EnhancedMonitoring": [
+            {
+                "ShardLevelMetrics": []
+            }
+        ],
+        "EncryptionType": "NONE",
+        "OpenShardCount": 1,
+        "ConsumerCount": 0
+    }
+}

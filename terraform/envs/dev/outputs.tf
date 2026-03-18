@@ -85,3 +85,31 @@ output "securityhub_enabled" {
 output "fsbp_enabled" {
   value = module.security_baseline.fsbp_enabled
 }
+
+output "kinesis_stream_name" {
+  value = module.telco_observability.kinesis_stream_name
+}
+
+output "kinesis_stream_arn" {
+  value = module.telco_observability.kinesis_stream_arn
+}
+
+output "lambda_function_name" {
+  value = module.telco_observability.lambda_function_name
+}
+
+output "dashboard_name" {
+  value = module.telco_observability.dashboard_name
+}
+
+output "critical_events_alarm_name" {
+  value = module.telco_observability.critical_events_alarm_name
+}
+
+output "lambda_errors_alarm_name" {
+  value = module.telco_observability.lambda_errors_alarm_name
+}
+
+output "metric_namespace" {
+  value = module.telco_observability.metric_namespace
+}

@@ -1,0 +1,474 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "chihuahua-dc1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "interface_down"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "critical"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "chihuahua-dc1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "jitter_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "latency_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "critical"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "monterrey-core1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "latency_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "packet_loss_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "jitter_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "critical"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "interface_down"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "critical"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "latency_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "AvgJitterMs",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "AvgThroughputMbps",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "jitter_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "chihuahua-dc1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "latency_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "throughput_spike"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "monterrey-core1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "throughput_spike"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "monterrey-core1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "packet_loss_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "CriticalEventCount",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "chihuahua-dc1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "throughput_spike"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "critical"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "ProcessedRecordCount",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "chihuahua-dc1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "packet_loss_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "monterrey-core1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "packet_loss_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "critical"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "AvgLatencyMs",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "chihuahua-dc1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "jitter_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "critical"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "monterrey-core1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "jitter_high"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "AvgPacketLossPct",
+            "Dimensions": []
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "chihuahua-dc1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "throughput_spike"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        },
+        {
+            "Namespace": "Telco/Observability",
+            "MetricName": "EventTypeCount",
+            "Dimensions": [
+                {
+                    "Name": "Site",
+                    "Value": "juarez-edge1"
+                },
+                {
+                    "Name": "EventType",
+                    "Value": "interface_down"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Name": "Severity",
+                    "Value": "warning"
+                }
+            ]
+        }
+    ]
+}

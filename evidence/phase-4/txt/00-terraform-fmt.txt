@@ -1,0 +1,2 @@
+terraform\modules\security_baseline\main.tf
+terraform\modules\telco_observability\main.tf
