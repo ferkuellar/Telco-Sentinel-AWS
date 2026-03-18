@@ -1,0 +1,164 @@
+{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "TotalExecutionTime",
+            "Dimensions": [
+                {
+                    "Name": "WorkGroup",
+                    "Value": "novatel-data-dev-wg"
+                },
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "ServiceProcessingTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "EngineExecutionTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "QueryQueueTime",
+            "Dimensions": [
+                {
+                    "Name": "WorkGroup",
+                    "Value": "novatel-data-dev-wg"
+                },
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "QueryQueueTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "ServiceProcessingTime",
+            "Dimensions": [
+                {
+                    "Name": "WorkGroup",
+                    "Value": "novatel-data-dev-wg"
+                },
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "ServicePreProcessingTime",
+            "Dimensions": [
+                {
+                    "Name": "WorkGroup",
+                    "Value": "novatel-data-dev-wg"
+                },
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "EngineExecutionTime",
+            "Dimensions": [
+                {
+                    "Name": "WorkGroup",
+                    "Value": "novatel-data-dev-wg"
+                },
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "ServicePreProcessingTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Athena",
+            "MetricName": "TotalExecutionTime",
+            "Dimensions": [
+                {
+                    "Name": "QueryState",
+                    "Value": "FAILED"
+                },
+                {
+                    "Name": "QueryType",
+                    "Value": "DDL"
+                }
+            ]
+        }
+    ]
+}

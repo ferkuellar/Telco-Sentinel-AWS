@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant App as Telemetry Pipeline
+    participant Raw as S3 Raw
+    participant Catalog as Glue Catalog
+    participant Query as Athena
+    participant Results as S3 Query Results
+
+    App->>Raw: Write telemetry objects
+    Catalog->>Raw: Register metadata / partitions
+    Query->>Catalog: Resolve schema
+    Query->>Raw: Scan matching partitions
+    Query->>Results: Store query output

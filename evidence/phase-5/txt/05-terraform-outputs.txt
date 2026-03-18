@@ -1,0 +1,38 @@
+athena_results_bucket_name = "novatel-data-dev-athena-results-151567229153"
+athena_workgroup_name = "novatel-data-dev-wg"
+cloudtrail_arn = "arn:aws:cloudtrail:us-east-1:151567229153:trail/novatel-sec-dev-trail"
+cloudtrail_name = "novatel-sec-dev-trail"
+cloudwatch_log_group_name = "/aws/cloudtrail/novatel-sec-dev"
+critical_events_alarm_name = "novatel-obsv-dev-critical-events"
+curated_bucket_name = "novatel-data-dev-curated-151567229153"
+dashboard_name = "novatel-obsv-dev-noc-dashboard"
+flow_log_group_name = "/aws/vpc/novatel-net-dev/flowlogs"
+flow_log_id = "fl-05e8590a52f499b54"
+fsbp_enabled = true
+glue_database_name = "novatel_data_dev_db"
+guardduty_detector_id = "737b5979c88a42728beb98cb3bba76cb"
+internet_gateway_id = "igw-07f4ccee12d2242da"
+kinesis_stream_arn = "arn:aws:kinesis:us-east-1:151567229153:stream/novatel-obsv-dev-stream"
+kinesis_stream_name = "novatel-obsv-dev-stream"
+kms_key_arn = "arn:aws:kms:us-east-1:151567229153:key/06e57a3c-ac44-4331-badb-f2db49032992"
+lambda_errors_alarm_name = "novatel-obsv-dev-lambda-errors"
+lambda_function_name = "novatel-obsv-dev-processor"
+metric_namespace = "Telco/Observability"
+nat_gateway_id = "nat-0d8ea940fbb024980"
+phase = "phase-2"
+private_route_table_id = "rtb-0c3604106ce8bd373"
+private_security_group_id = "sg-0624b3ee55ed82e62"
+private_subnet_ids = [
+  "subnet-07cdc86f2ca890dfa",
+  "subnet-01f4fb50d39b4e3ae",
+]
+public_route_table_id = "rtb-02704e8e4521e3a40"
+public_security_group_id = "sg-04c3d7edac85b6d85"
+public_subnet_ids = [
+  "subnet-07eae3b110391db68",
+  "subnet-01b38163a2e8bfb15",
+]
+raw_bucket_name = "novatel-data-dev-raw-151567229153"
+securityhub_enabled = true
+trail_bucket_name = "novatel-sec-dev-trail-logs-151567229153"
+vpc_id = "vpc-007bfb08f99ed1f9c"

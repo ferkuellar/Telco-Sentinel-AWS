@@ -1,0 +1,43 @@
+{
+    "Buckets": [
+        {
+            "Name": "aegis-lz-aws-dev-151567229153-cloudtrail-logs",
+            "CreationDate": "2026-03-09T00:30:50+00:00",
+            "BucketArn": "arn:aws:s3:::aegis-lz-aws-dev-151567229153-cloudtrail-logs"
+        },
+        {
+            "Name": "aegis-lz-aws-dev-151567229153-config-logs",
+            "CreationDate": "2026-03-09T00:47:54+00:00",
+            "BucketArn": "arn:aws:s3:::aegis-lz-aws-dev-151567229153-config-logs"
+        },
+        {
+            "Name": "nbf-sentinel-dev-audit-151567229153",
+            "CreationDate": "2026-03-10T01:40:10+00:00",
+            "BucketArn": "arn:aws:s3:::nbf-sentinel-dev-audit-151567229153"
+        },
+        {
+            "Name": "novatel-data-dev-athena-results-151567229153",
+            "CreationDate": "2026-03-18T02:23:13+00:00",
+            "BucketArn": "arn:aws:s3:::novatel-data-dev-athena-results-151567229153"
+        },
+        {
+            "Name": "novatel-data-dev-curated-151567229153",
+            "CreationDate": "2026-03-18T02:23:13+00:00",
+            "BucketArn": "arn:aws:s3:::novatel-data-dev-curated-151567229153"
+        },
+        {
+            "Name": "novatel-data-dev-raw-151567229153",
+            "CreationDate": "2026-03-18T02:23:13+00:00",
+            "BucketArn": "arn:aws:s3:::novatel-data-dev-raw-151567229153"
+        },
+        {
+            "Name": "novatel-sec-dev-trail-logs-151567229153",
+            "CreationDate": "2026-03-13T01:21:51+00:00",
+            "BucketArn": "arn:aws:s3:::novatel-sec-dev-trail-logs-151567229153"
+        }
+    ],
+    "Owner": {
+        "ID": "056adcbe0583499ca00b571d753428727a032ca8025a40405d74264272747239"
+    },
+    "Prefix": null
+}

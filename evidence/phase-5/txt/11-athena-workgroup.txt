@@ -1,0 +1,20 @@
+{
+    "WorkGroup": {
+        "Name": "novatel-data-dev-wg",
+        "State": "ENABLED",
+        "Configuration": {
+            "ResultConfiguration": {
+                "OutputLocation": "s3://novatel-data-dev-athena-results-151567229153/query-results/"
+            },
+            "EnforceWorkGroupConfiguration": true,
+            "PublishCloudWatchMetricsEnabled": true,
+            "RequesterPaysEnabled": false,
+            "EngineVersion": {
+                "SelectedEngineVersion": "AUTO",
+                "EffectiveEngineVersion": "Athena engine version 3"
+            },
+            "EnableMinimumEncryptionConfiguration": false
+        },
+        "CreationTime": "2026-03-17T20:23:14.443000-06:00"
+    }
+}

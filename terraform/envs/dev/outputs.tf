@@ -113,3 +113,23 @@ output "lambda_errors_alarm_name" {
 output "metric_namespace" {
   value = module.telco_observability.metric_namespace
 }
+
+output "raw_bucket_name" {
+  value = module.operational_data_lake.raw_bucket_name
+}
+
+output "curated_bucket_name" {
+  value = module.operational_data_lake.curated_bucket_name
+}
+
+output "athena_results_bucket_name" {
+  value = module.operational_data_lake.athena_results_bucket_name
+}
+
+output "glue_database_name" {
+  value = module.operational_data_lake.glue_database_name
+}
+
+output "athena_workgroup_name" {
+  value = module.operational_data_lake.athena_workgroup_name
+}

@@ -1,0 +1,14 @@
+flowchart LR
+    KDS[Kinesis Data Stream] --> LMB[Lambda Processor]
+    LMB --> S3RAW[S3 Raw Zone]
+    S3RAW --> GLUE[AWS Glue Data Catalog]
+    GLUE --> ATHENA[Amazon Athena]
+    ATHENA --> S3RES[S3 Athena Results]
+    ATHENA --> OPS[Operational Queries / KPIs]
+
+    S3RAW --> CURATED[S3 Curated Zone]
+    CURATED --> GLUE
+
+    LF[Lake Formation Roadmap] -. future governance .-> GLUE
+    LF -. future governance .-> S3RAW
+    LF -. future governance .-> CURATED

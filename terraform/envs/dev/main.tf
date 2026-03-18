@@ -59,3 +59,11 @@ module "telco_observability" {
   tags             = local.mandatory_tags
   metric_namespace = var.metric_namespace
 }
+
+module "operational_data_lake" {
+  source = "../../modules/operational_data_lake"
+
+  name_prefix = "novatel-data-${var.environment}"
+  aws_region  = var.aws_region
+  tags        = local.mandatory_tags
+}
