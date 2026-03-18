@@ -1,13 +1,14 @@
 name: Terraform CI
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
+  push:
+    branches: [ "main" ]
 
 jobs:
-  terraform-validate:
+  terraform:
+    name: Terraform Validation Pipeline
     runs-on: ubuntu-latest
 
     defaults:
@@ -15,7 +16,7 @@ jobs:
         working-directory: terraform/envs/dev
 
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup Terraform
@@ -29,3 +30,12 @@ jobs:
 
       - name: Terraform Validate
         run: terraform validate
+
+      - name: Terraform Plan
+        run: terraform plan -out=tfplan
+
+      - name: Upload Plan Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tfplan
+          path: terraform/envs/dev/tfplan

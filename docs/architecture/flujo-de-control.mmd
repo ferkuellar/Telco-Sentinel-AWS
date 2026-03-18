@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant Dev as Developer
+    participant GitHub as GitHub Repo
+    participant CI as GitHub Actions
+    participant AWS as AWS Account
+
+    Dev->>GitHub: Push / PR
+    GitHub->>CI: Trigger workflow
+    CI->>CI: fmt + validate
+    CI->>CI: plan
+    CI->>GitHub: Upload tfplan artifact
+    Dev->>GitHub: Approve PR
+    Dev->>AWS: Manual terraform apply

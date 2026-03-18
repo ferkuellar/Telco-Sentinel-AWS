@@ -1,0 +1,15 @@
+flowchart LR
+    DEV[Developer] --> PR[Pull Request]
+    PR --> CI[GitHub Actions CI]
+
+    CI --> FMT[Terraform fmt]
+    CI --> VAL[Terraform validate]
+    CI --> PLAN[Terraform plan]
+
+    PLAN --> ART[tfplan artifact]
+    ART --> REVIEW[Architect Review]
+
+    REVIEW --> APPLY[Manual Apply Approval]
+    APPLY --> AWS[AWS Environment]
+
+    AWS --> EVD[Evidence Capture]
